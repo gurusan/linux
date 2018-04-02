@@ -1,0 +1,164 @@
+yum search git
+yum search all git
+wget https://www.kernel.org/pub/software/scm/git/git-2.14.2.tar.gz    -> Download the Git tar ball
+
+wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.16.3.tar.gz ---git 2.16.3 version 
+
+tar -zxf git-2.14.2.tar.gz
+cd git-2.14.2/
+yum groupinstall "Development Tools"             - To install development kit 
+yum install autoconf* curl-devel* expact-devel* openssl-devel gettext-devel perl-CPAN zlib-devel gcc make perl-ExtUtils-* cpio   - to install the dependencies 
+./configure                       -> configure the file 
+make  
+cat Makefile
+make prefix=/usr install           -> to install the GIT 
+git --version
+
+
+
+
+
+git checkout HEAD~2 helloworld.java
+
+
+
+
+[root@ip-172-31-21-47 java-code]# git rm --cched helloworld.java
+error: unknown option `cched'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+46  useradd ganesh
+   47  passwd ganesh
+   48  ig ganesh
+   49  id ganesh
+   50  clear
+   51  git config global user.name  "ganesh"
+   52  git config --global user.name  "ganesh"
+   53  git config --global user.email  "ganeshrhel@gmail.com"
+   54  git config --global list
+   55  git config --global --list
+   56  git config --global user.name  "ec2-user"
+   57  git config --global --list
+   58  git config --global user.name  "ganesh"
+   59  git config --global --list
+   60  git config --system --list
+   61  git config --system  core.editer "vim"
+   62  git config --system --list
+   63  git config --local --list
+   64  vi helloworld.java
+   65  git status
+   66  git add .
+   67  git status
+   68  git rm --cched helloworld.java
+   69  git rm --cached helloworld.java
+   70  ls -l
+   71  git add .
+   72  git status
+   73  git commit -m "Added new helloworld java file, First commit"
+   74  vi helloworld.java
+   75  git status
+   76  vi helloworld.java
+   77  git status
+   78  git add helloworld.java
+   79  git diff helloworld.java
+   80  git add .
+   81  git status
+   82  git commit -m "Added a comment line at the top, Second commit "
+   83  vi helloworld.java
+   84  git status
+   85  git add .
+   86  git status
+   87  git commit -m " Added new print statement. third commit"
+   88  git status
+   89  git log
+   90  clear
+   91  git log
+   92  git diff
+   93  vi helloworld.java
+   94  git status
+   95  git add .
+   96  git diff --staged
+   97  git commit -m " Added a comment line for ptint, Forth commit"
+   98  vi helloworld.java
+   99  git diff
+  100  git status
+  101* git commit -m " added new print statement, Fifth commit"
+  102  git add .
+  103  git diff  --staged
+  104  git checkout -- helloworld.java
+  105  git status
+  106  git reset HEAD helloworld.java
+  107  cat helloworld.java
+  108  git log
+  109  git diff HEAD~2
+  110  git diff HEAD~3
+  111  git status
+  112*
+  113  git status
+  114  git reset HEAD helloworld.java
+  115  git status
+  116  git reset HEAD~2
+  117  git status
+  118  git diff
+  119  git add .
+  120   gif diff --staged
+  121   git diff --staged
+  122  git status
+  123  git commit -m " this is fifth commit"
+  124  git diff HEAD~1
+  125  git log
+  126  cat helloworld.java
+
+   257  vi README.md
+  258  git status
+  259  git add .
+  260  git commit --amend -m " added the math logic & README.md, Firth commit "
+  261  git log
+  262   git branch first_branch
+  263  ls -l
+  264  git branch -a
+  265  git checkout first_branch
+  266  git branch -a
+  267  gid status
+  268  git status
+  269  git checkout master
+  270  git status
+  271  clear
+  272  git status
+  273  git remote -v
+  275  git remote add mygithub git@github.com:kothapeta/java-code.git
+  276  git remote -v
+  277  git push mygithub master
+  278  ssh-keygen -t rsa -b 4096 -C "gkhreddi@gmail.com"
+  279  eval $(ssh-agent -s)
+  280  ssh-add ~/.ssh/id_rsa
+  282  cd /root/.ssh/id_rsa
+  285  cat id_rsa.pub
+  286  git push mygithub master
+  287  cd /opt/java-code/
+  288  git push mygithub master
+  289  ssh -T git@github.com
+   291  git clone git@github.com:kothapeta/java-code.git
+  295  git log
+  296  git branch bug_fix
+   300  git checkout buu_fix
+  301  git branch -a
+  302  git checkout bug_fix
+   305  vi helloworld.java
+  306  git status
+  307  git remote -v
+    313  git commit -m "Bug Fixed, sixth commit"
+  314  git push origin bug_fix
+
+Thank you for this opportunity, and I look forward to working with you soon. i accepted the offer
+
+
+  
+
