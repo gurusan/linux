@@ -1,0 +1,53 @@
+05/10/2017   ---- Build and release tools (Telephonic)
+
+Tell me about yur self?
+What is your day to day activity?
+Which tool you are used for build and release?
+what is different kinds of maven commands?
+difference between git and github?
+difference between central repository and local repository?
+In a job 1 st is fail then the second job call to send email.how can you do it?
+In that which condition is used?
+what is the difference between older version genkins and new version?
+What is configuration for git.
+difference between git and svn?
+Different kinds of git?
+------------------------------------------------------------------------------------------------------------------------------
+06/10/2017  ---- Python (Telephonic)
+
+Tell me about your self and your project?
+What kind of works to do in your automation?
+Task: To do Automate for Install ubntu?
+How to cerate playbook in vm ware?
+what is difference between Tuple and list in python?
+Ans:To put it lightly, tuples are lists which can't be edited. Once you create a tuple,
+         you cannot edit it, it is immutable. Lists on the other hand are mutable, you can 
+         edit them, they work like the array object in JavaScript or PHP. You can add items, 
+         delete items from a list; but you can't do that to a tuple, tuples have a fixed size.
+Are you using regular expressions in python?
+Difference between maven and Ant?
+Configure settings for jenkins to Ansible?
+-----------------------------------------------------------------------------------------------------------------------------
+02/11/2017   
+Phylips:-
+----------
+what is contineous integration?
+what is contineous Diployment?
+How to do http to https in jenkins?(By defauly it is connect to http.some security reasons we have to 
+     connect https instead of http how it is possible in jenkins)
+What is default jenkins port number?
+How will you start jenkins sever in windows?
+In which platform jenkins are developed?
+How to connect slaves in jenkins?
+Difference between internet and lan?
+Configuration settings for adding slave?
+Configuration settings for giving permissions to admin and normal user?
+how to swap two values without using third variable ?
+write python script to run "ls -l" command run in your system or another system?
+Hove you write any modules in ansible using python?
+
+     HR:-
+    -----
+Tell me your day to day activity?
+What is the reason to change current organization?
+what is your current and Expected CTC?
